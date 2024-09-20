@@ -1,0 +1,133 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px 5px 30px;
+}
+
+.navTitle {
+  font-size: 40px;
+}
+
+.navItems {
+  font-size: 22px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.active {
+  color: #8a4baf;
+}
+
+/* homepage */
+
+.homepage {
+  padding: 0 30px 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0;
+}
+
+.homepage-paragraphs {
+  font-size: 18px;
+}
+
+/* calculator page */
+
+.calculatorPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+}
+
+.cal-container {
+  width: 600px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-items: center;
+  align-content: center;
+}
+
+.result,
+.keys,
+.bottom-zero {
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  border: 1px solid gray;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.result {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: gray;
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  width: 97%;
+  padding-right: 3%;
+}
+
+.keys {
+  background-color: gainsboro;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-col {
+  background-color: orange;
+}
+
+.bottom-zero {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* quote page */
+
+.quote-page {
+  padding: 100px 50px 0 50px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-description {
+  font-style: italic;
+}
+
+.quote-author {
+  color: gray;
+  text-align: right;
+}
