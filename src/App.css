@@ -48,6 +48,7 @@ a {
 .main {
   margin-top: 70px;
   padding: 10px 30px;
+  min-height: 75vh;
 }
 
 /* homepage */
@@ -58,4 +59,31 @@ a {
   justify-content: center;
   align-items: center;
   height: 300px;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #bc60fb;
+  color: #fff;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.footer .socialContainer {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.socialContainer li a {
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
 }
