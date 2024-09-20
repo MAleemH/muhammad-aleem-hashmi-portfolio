@@ -52,6 +52,10 @@ a {
 
 /* homepage */
 
-.homepage-paragraphs {
-  font-size: 18px;
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
