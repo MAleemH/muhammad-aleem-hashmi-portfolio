@@ -1,5 +1,5 @@
 const Home = () => (
-  <div className="homepage">
+  <div className="main">
     <h2>Welcome to our page!</h2>
     <div className="homepage-paragraphs">
       <p>
