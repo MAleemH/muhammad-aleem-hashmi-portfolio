@@ -3,7 +3,7 @@ const Home = () => (
     <div className="container hero-section mt-5">
       <div className="row">
         <div className="col-sm-12 col-md-6 col-xl-6">
-          <div className="hero-title mb-3">
+          <div className="hero-title mb-3" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
             I&apos;m Muhammad Aleem Hashmi
             <br />
             Glad to see you!
