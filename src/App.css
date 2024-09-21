@@ -55,28 +55,27 @@ body {
 
 /* footer */
 
-.footer {
+footer {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #bc60fb;
   color: #fff;
   height: 70px;
-  padding: 0 30px;
 }
 
-.footer .socialContainer {
+footer .socialContainer {
   list-style: none;
   display: flex;
   gap: 20px;
   margin: 0;
+  padding: 0;
 }
 
 .socialContainer li a {
   color: #fff;
 }
 
-.footer p {
+footer p {
   margin: 0;
   padding: 0;
 }
