@@ -1,6 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
+import React, { useEffect } from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Home from './components/home';
 import About from './components/about';
 import Projects from './components/projects';
@@ -9,6 +12,13 @@ import NotMatch from './components/notMatch';
 import Layout from './components/layout';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 500,
+      once: true,
+    });
+  }, []);
+
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
