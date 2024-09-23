@@ -77,12 +77,12 @@ body {
   width: 100px;
 }
 
-.skill-item .icon {
+.skill-icon {
   font-size: 50px;
   margin-bottom: 10px;
 }
 
-.skill-item p {
+.skill-name {
   text-align: center;
   font-size: 14px;
   color: #333;

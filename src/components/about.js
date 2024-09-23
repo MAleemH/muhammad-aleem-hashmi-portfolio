@@ -143,8 +143,8 @@ const About = () => (
                 <div className="skills-grid">
                   {skillCategory.skills.map((skill) => (
                     <div key={`${skillCategory.category}-${skill.name}`} className="skill-item">
-                      <span className="icon">{skill.icon}</span>
-                      <p>{skill.name}</p>
+                      <span className="skill-icon">{skill.icon}</span>
+                      <p className="skill-name">{skill.name}</p>
                     </div>
                   ))}
                 </div>
