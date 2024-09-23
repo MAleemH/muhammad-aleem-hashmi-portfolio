@@ -53,6 +53,41 @@ body {
   font-weight: bold;
 }
 
+/* about page */
+
+.skills-section {
+  margin: 2rem auto;
+}
+
+.skill-category {
+  margin-bottom: 2rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.skill-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
 /* footer */
 
 footer {
