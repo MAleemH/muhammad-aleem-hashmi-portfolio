@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Home from './components/home';
 import About from './components/about';
+import Experience from './components/experience';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import NotMatch from './components/notMatch';
@@ -24,6 +25,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="experience" element={<Experience />} />
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<NotMatch />} />
