@@ -16,10 +16,10 @@ const Experience = () => (
     <div className="container mb-5">
       {/* experience 1 */}
       <div className="row mb-5" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
-        <div className="col-2">
+        <div className="col-lg-2 col-md-2 col-sm-12">
           <p className="text-secondary">Mar 2024 – Current</p>
         </div>
-        <div className="col-10">
+        <div className="col-lg-10 col-md-10 col-sm-12">
           <h5>Full-stack Web Developer</h5>
           <p>CandidateSide, Remote</p>
 
@@ -59,10 +59,10 @@ const Experience = () => (
       </div>
       {/* experience 2 */}
       <div className="row mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-        <div className="col-2">
+        <div className="col-lg-2 col-md-2 col-sm-12">
           <p className="text-secondary">Jan 2024 – Mar 2024</p>
         </div>
-        <div className="col-10">
+        <div className="col-lg-10 col-md-10 col-sm-12">
           <h5>Computer Operator</h5>
           <p>Noor Memorial Hospital, Mirpur AJ&K</p>
 
@@ -99,10 +99,10 @@ const Experience = () => (
       </div>
       {/* experience 3 */}
       <div className="row mb-5" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-        <div className="col-2">
+        <div className="col-lg-2 col-md-2 col-sm-12">
           <p className="text-secondary">Nov 2021 – Aug 2022</p>
         </div>
-        <div className="col-10">
+        <div className="col-lg-10 col-md-10 col-sm-12">
           <h5>Computer Operator</h5>
           <p>Mohi-ud-Din Institute of Nursing Allied Sciences, Mirpur AJ&K</p>
 
@@ -147,10 +147,10 @@ const Experience = () => (
       </div>
       {/* experience 4 */}
       <div className="row mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-        <div className="col-2">
+        <div className="col-lg-2 col-md-2 col-sm-12">
           <p className="text-secondary">Nov 2019 – Oct 2021</p>
         </div>
-        <div className="col-10">
+        <div className="col-lg-10 col-md-10 col-sm-12">
           <h5>IT Expert</h5>
           <p>Zobia School for Special Children, Mirpur AJ&K</p>
 
@@ -186,10 +186,10 @@ const Experience = () => (
       </div>
       {/* experience 5 */}
       <div className="row" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
-        <div className="col-2">
+        <div className="col-lg-2 col-md-2 col-sm-12">
           <p className="text-secondary">Jun 2019 – Aug 2019</p>
         </div>
-        <div className="col-10">
+        <div className="col-lg-10 col-md-10 col-sm-12">
           <h5>IT Executive</h5>
           <p>Trevor Trading (PVT). LTD, Mirpur AJ&K</p>
 
