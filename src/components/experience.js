@@ -1,3 +1,5 @@
+import { FaArrowRight } from 'react-icons/fa';
+
 const Experience = () => (
   <div className="main">
     <div className="container hero-section">
@@ -18,25 +20,40 @@ const Experience = () => (
         </div>
         <div className="col-10">
           <h5>Full-stack Web Developer</h5>
-          <div className="d-flex gap-3">
-            <p>CandidateSide,</p>
-            <p>Remote</p>
+          <p>CandidateSide, Remote</p>
+
+          <div>
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Built a comprehensive dashboard for admin, employee, and client
+                logins, facilitating efficient task management.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Developed an integrated email system using AWS WorkMail, which
+                automatically generates emails for new users, stores all emails in
+                a database, and fetches emails with attachments via a cron job.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Enabled all users to access the email system through the
+                dashboard, enhancing communication and productivity.
+              </div>
+            </div>
           </div>
-          <ul className="job-description">
-            <li>
-              Built a comprehensive dashboard for admin, employee, and client
-              logins, facilitating efficient task management.
-            </li>
-            <li>
-              Developed an integrated email system using AWS WorkMail, which
-              automatically generates emails for new users, stores all emails in
-              a database, and fetches emails with attachments via a cron job.
-            </li>
-            <li>
-              Enabled all users to access the email system through the
-              dashboard, enhancing communication and productivity.
-            </li>
-          </ul>
         </div>
       </div>
     </div>
