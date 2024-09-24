@@ -5,6 +5,7 @@ import logo from '../assets/images/logos/logo.png';
 const links = [
   { path: '/', text: 'Home' },
   { path: 'about', text: 'About' },
+  { path: 'experience', text: 'Experience' },
   { path: 'projects', text: 'Projects' },
   { path: 'contact', text: 'Contact' },
 ];
