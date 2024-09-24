@@ -15,7 +15,7 @@ const Experience = () => (
 
     <div className="container mb-5">
       {/* experience 1 */}
-      <div className="row mb-5">
+      <div className="row mb-5" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
         <div className="col-2">
           <p className="text-secondary">Mar 2024 – Current</p>
         </div>
@@ -58,7 +58,7 @@ const Experience = () => (
         </div>
       </div>
       {/* experience 2 */}
-      <div className="row mb-5">
+      <div className="row mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
         <div className="col-2">
           <p className="text-secondary">Jan 2024 – Mar 2024</p>
         </div>
@@ -98,7 +98,7 @@ const Experience = () => (
         </div>
       </div>
       {/* experience 3 */}
-      <div className="row mb-5">
+      <div className="row mb-5" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
         <div className="col-2">
           <p className="text-secondary">Nov 2021 – Aug 2022</p>
         </div>
@@ -146,7 +146,7 @@ const Experience = () => (
         </div>
       </div>
       {/* experience 4 */}
-      <div className="row mb-5">
+      <div className="row mb-5" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
         <div className="col-2">
           <p className="text-secondary">Nov 2019 – Oct 2021</p>
         </div>
@@ -185,7 +185,7 @@ const Experience = () => (
         </div>
       </div>
       {/* experience 5 */}
-      <div className="row">
+      <div className="row" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
         <div className="col-2">
           <p className="text-secondary">Jun 2019 – Aug 2019</p>
         </div>
