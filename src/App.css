@@ -88,6 +88,12 @@ body {
   color: #333;
 }
 
+/* experience page */
+
+.job-description {
+  padding-left: 1rem;
+}
+
 /* footer */
 
 footer {

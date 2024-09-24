@@ -22,7 +22,7 @@ const Experience = () => (
             <p>CandidateSide,</p>
             <p>Remote</p>
           </div>
-          <ul>
+          <ul className="job-description">
             <li>
               Built a comprehensive dashboard for admin, employee, and client
               logins, facilitating efficient task management.
