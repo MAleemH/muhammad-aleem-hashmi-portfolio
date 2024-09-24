@@ -58,7 +58,7 @@ const Experience = () => (
         </div>
       </div>
       {/* experience 2 */}
-      <div className="row">
+      <div className="row mb-5">
         <div className="col-2">
           <p className="text-secondary">Jan 2024 – Mar 2024</p>
         </div>
@@ -92,6 +92,54 @@ const Experience = () => (
               </div>
               <div>
                 Managed the printing of important documents and records.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* experience 3 */}
+      <div className="row mb-5">
+        <div className="col-2">
+          <p className="text-secondary">Nov 2021 – Aug 2022</p>
+        </div>
+        <div className="col-10">
+          <h5>Computer Operator</h5>
+          <p>Mohi-ud-Din Institute of Nursing Allied Sciences, Mirpur AJ&K</p>
+
+          <div>
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Managed and maintained the IT lab, providing assistance to students and lecturers.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Oversaw the maintenance of IT and academic records.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Designed and printed various academic and professional documents.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Managed and promoted the institute’s social media accounts.
               </div>
             </div>
           </div>
