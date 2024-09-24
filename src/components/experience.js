@@ -13,7 +13,7 @@ const Experience = () => (
       </div>
     </div>
 
-    <div className="container">
+    <div className="container mb-5">
       {/* experience 1 */}
       <div className="row mb-5">
         <div className="col-2">
@@ -140,6 +140,75 @@ const Experience = () => (
               </div>
               <div>
                 Managed and promoted the institute’s social media accounts.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* experience 4 */}
+      <div className="row mb-5">
+        <div className="col-2">
+          <p className="text-secondary">Nov 2019 – Oct 2021</p>
+        </div>
+        <div className="col-10">
+          <h5>IT Expert</h5>
+          <p>Zobia School for Special Children, Mirpur AJ&K</p>
+
+          <div>
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Maintained examination, medical, and student records with precision.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Assisted teachers in learning and utilizing computer software.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Provided technical support and printing services for educational purposes.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* experience 5 */}
+      <div className="row">
+        <div className="col-2">
+          <p className="text-secondary">Jun 2019 – Aug 2019</p>
+        </div>
+        <div className="col-10">
+          <h5>IT Executive</h5>
+          <p>Trevor Trading (PVT). LTD, Mirpur AJ&K</p>
+
+          <div>
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Maintained detailed records of mobile IMEI numbers.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Designed and printed mobile IMEI numbers accurately.
               </div>
             </div>
           </div>
