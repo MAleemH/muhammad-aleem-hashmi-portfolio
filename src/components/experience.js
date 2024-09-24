@@ -14,7 +14,8 @@ const Experience = () => (
     </div>
 
     <div className="container">
-      <div className="row">
+      {/* experience 1 */}
+      <div className="row mb-5">
         <div className="col-2">
           <p className="text-secondary">Mar 2024 – Current</p>
         </div>
@@ -51,6 +52,46 @@ const Experience = () => (
               <div>
                 Enabled all users to access the email system through the
                 dashboard, enhancing communication and productivity.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* experience 2 */}
+      <div className="row">
+        <div className="col-2">
+          <p className="text-secondary">Jan 2024 – Mar 2024</p>
+        </div>
+        <div className="col-10">
+          <h5>Computer Operator</h5>
+          <p>Noor Memorial Hospital, Mirpur AJ&K</p>
+
+          <div>
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Maintained various hospital records, including certificates, letters,
+                and appointment documents.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Handled token printing and cash documentation.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Managed the printing of important documents and records.
               </div>
             </div>
           </div>
