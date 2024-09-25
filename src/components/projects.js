@@ -28,18 +28,18 @@ const Projects = () => (
         <div className="col-12 project-card">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <img src={logo} alt="Project-Img" className="w-100" />
+              <img src={logo} alt="Project-Img" className="w-100 h-100" />
             </div>
 
-            <div className="col-lg-6 col-md-6 col-sm-12">
-              <h3 className="mb-4">Counseling App</h3>
+            <div className="col-lg-6 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3 d-flex flex-column gap-2">
+              <h3>Counseling App</h3>
 
-              <p className="mb-4">
+              <p>
                 Users can view psychologists available and manage appointments with psychologists.
                 There is an admin portal to manage the whole website.
               </p>
 
-              <div className="d-flex gap-1 mb-5">
+              <div className="d-flex gap-1 mb-3">
                 <span className="badge" style={{ backgroundColor: '#00d8ff' }}>
                   <FaReact className="me-1" />
                   React
@@ -58,7 +58,7 @@ const Projects = () => (
                 </span>
               </div>
 
-              <a href="/projects" className="project-view-btn">View Details</a>
+              <a href="/projects" className="project-view-btn align-self-start">View Details</a>
             </div>
           </div>
         </div>
