@@ -153,11 +153,11 @@ const About = () => (
         data-aos-once="true"
       >
         <div className="col-lg-2 col-md-2 col-sm-12">
-          <p className="text-secondary">Mar 2024 – Current</p>
+          <p className="text-secondary">Nov 2022 – Jul 2023</p>
         </div>
         <div className="col-lg-10 col-md-10 col-sm-12">
-          <h5>Full-stack Web Developer</h5>
-          <p>CandidateSide, Remote</p>
+          <h5>Full Stack Web Development Program</h5>
+          <p>Microverse, Remote</p>
 
           <div>
             <div className="d-flex gap-2">
@@ -165,8 +165,8 @@ const About = () => (
                 <FaArrowRight />
               </div>
               <div>
-                Built a comprehensive dashboard for admin, employee, and client
-                logins, facilitating efficient task management.
+                Invested 1300+ hours mastering algorithms, data structures, and
+                full-stack development.
               </div>
             </div>
 
@@ -175,10 +175,7 @@ const About = () => (
                 <FaArrowRight />
               </div>
               <div>
-                Developed an integrated email system using AWS WorkMail, which
-                automatically generates emails for new users, stores all emails
-                in a database, and fetches emails with attachments via a cron
-                job.
+                Developed projects using Ruby, Rails, JavaScript, React, and Redux
               </div>
             </div>
 
@@ -187,8 +184,9 @@ const About = () => (
                 <FaArrowRight />
               </div>
               <div>
-                Enabled all users to access the email system through the
-                dashboard, enhancing communication and productivity.
+                Enhanced skills in remote pair programming using GitHub,
+                industry-standard git-flow, and daily standups to communicate
+                and collaborate with international remote developers.
               </div>
             </div>
           </div>
@@ -202,11 +200,11 @@ const About = () => (
         data-aos-once="true"
       >
         <div className="col-lg-2 col-md-2 col-sm-12">
-          <p className="text-secondary">Jan 2024 – Mar 2024</p>
+          <p className="text-secondary">Oct 2017 – Apr 2022</p>
         </div>
         <div className="col-lg-10 col-md-10 col-sm-12">
-          <h5>Computer Operator</h5>
-          <p>Noor Memorial Hospital, Mirpur AJ&K</p>
+          <h5>BS Software Engineering</h5>
+          <p>Virtual University of Pakistan, Mirpur AJ&K</p>
 
           <div>
             <div className="d-flex gap-2">
@@ -214,8 +212,8 @@ const About = () => (
                 <FaArrowRight />
               </div>
               <div>
-                Maintained various hospital records, including certificates,
-                letters, and appointment documents.
+                Completed various small projects as assignments with Java, C++,
+                JavaScript, XML, MySQL, HTML, and CSS.
               </div>
             </div>
 
@@ -223,15 +221,8 @@ const About = () => (
               <div>
                 <FaArrowRight />
               </div>
-              <div>Handled token printing and cash documentation.</div>
-            </div>
-
-            <div className="d-flex gap-2">
               <div>
-                <FaArrowRight />
-              </div>
-              <div>
-                Managed the printing of important documents and records.
+                Developed a comprehensive project using Laravel as part of the degree requirements.
               </div>
             </div>
           </div>
