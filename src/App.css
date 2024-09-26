@@ -130,11 +130,8 @@ body {
 /* footer */
 
 footer {
-  display: flex;
-  align-items: center;
   background-color: #bc60fb;
   color: #fff;
-  height: 70px;
 }
 
 footer .socialContainer {
