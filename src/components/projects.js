@@ -3,6 +3,9 @@ import {
   FaReact,
   FaPhp,
   FaBootstrap,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
 } from 'react-icons/fa';
 import {
   SiRedux,
@@ -93,6 +96,40 @@ const Projects = () => (
                 <span className="badge" style={{ backgroundColor: '#00758f' }}>
                   <SiMysql className="me-1" />
                   MySQL
+                </span>
+              </div>
+
+              <a href="/projects" className="project-view-btn align-self-start">View Details</a>
+            </div>
+          </div>
+        </div>
+        {/* Project 3 */}
+        <div className="col-12 project-card">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12">
+              <img src={code} alt="Project-Img" className="w-100 h-100" />
+            </div>
+
+            <div className="col-lg-6 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3 d-flex flex-column gap-2">
+              <h3>Awesome Books</h3>
+
+              <p>
+                Users can manage book records. Its key features are that it is a single-page
+                application and data is stored in local storage and displayed dynamically.
+              </p>
+
+              <div className="d-flex gap-1 mb-3">
+                <span className="badge" style={{ backgroundColor: '#f7df1e' }}>
+                  <FaJs className="me-1" />
+                  JavaScript
+                </span>
+                <span className="badge" style={{ backgroundColor: '#e34f26' }}>
+                  <FaHtml5 className="me-1" />
+                  HTML5
+                </span>
+                <span className="badge" style={{ backgroundColor: '#1572b6' }}>
+                  <FaCss3Alt className="me-1" />
+                  CSS3
                 </span>
               </div>
 
