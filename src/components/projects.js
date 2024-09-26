@@ -29,7 +29,7 @@ const Projects = () => (
       </div>
     </div>
 
-    <div className="container">
+    <div className="container mb-5">
       <div className="row gap-5">
         {/* Project 1 */}
         <div className="col-12 project-card" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
