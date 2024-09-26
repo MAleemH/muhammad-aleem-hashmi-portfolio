@@ -21,22 +21,24 @@ const Contact = () => (
       <div className="row justify-content-center">
         <div className="col-lg-8 col-sm-12">
           <form id="contactForm">
-            <div className="mb-3">
-              <label htmlFor="nameInput" className="form-label">Name</label>
-              <input type="text" className="form-control" id="nameInput" name="name" />
+            <div className="form-floating mb-3">
+              <input type="text" className="form-control" id="nameInput" name="name" placeholder="Muhammad Ali" />
+              <label htmlFor="nameInput">Name</label>
             </div>
 
-            <div className="mb-3">
-              <label htmlFor="emailInput" className="form-label">Email</label>
-              <input type="email" className="form-control" id="emailInput" name="email" />
+            <div className="form-floating mb-3">
+              <input type="email" className="form-control" id="emailInput" name="email" placeholder="example@email.com" />
+              <label htmlFor="emailInput">Email</label>
             </div>
 
-            <div className="mb-3">
-              <label htmlFor="messageInput" className="form-label">Message</label>
-              <textarea className="form-control" id="messageInput" name="message" rows="3" />
+            <div className="form-floating mb-3">
+              <textarea className="form-control" id="messageInput" name="message" placeholder="Type here..." />
+              <label htmlFor="messageInput">Message</label>
             </div>
 
-            <button type="submit" className="btn btn-primary">Get in Touch</button>
+            <div className="text-center">
+              <button type="submit" className="form-btn">Get in Touch</button>
+            </div>
           </form>
         </div>
       </div>
