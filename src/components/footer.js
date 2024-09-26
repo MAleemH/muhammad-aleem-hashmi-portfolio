@@ -20,35 +20,37 @@ const Footer = () => (
           </p>
         </div>
 
-        <div className="col-sm-12 col-md-6 col-xl-6">
-          <h5>Social</h5>
-          <ul className="socialContainer">
-            <li>
-              <a href="mailto:muhammad.aleem.hashmi.official@gmail.com">
-                <FaEnvelope title="Email" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/muhammad.aleem.hashmi1">
-                <FaFacebook title="Facebook" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/MAleemH">
-                <FaGithub title="GitHub" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/muhammad-aleem-hashmi">
-                <FaLinkedin title="LinkedIn" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/MAleemHashmi1">
-                <FaTwitter title="Twitter" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
-              </a>
-            </li>
-          </ul>
+        <div className="col-sm-12 col-md-6 col-xl-6 d-flex justify-content-start justify-content-md-end justify-content-lg-end mt-5 mt-md-0 mt-lg-0">
+          <div>
+            <h5>Social</h5>
+            <ul className="socialContainer">
+              <li>
+                <a href="mailto:muhammad.aleem.hashmi.official@gmail.com">
+                  <FaEnvelope title="Email" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/muhammad.aleem.hashmi1">
+                  <FaFacebook title="Facebook" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/MAleemH">
+                  <FaGithub title="GitHub" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/muhammad-aleem-hashmi">
+                  <FaLinkedin title="LinkedIn" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/MAleemHashmi1">
+                  <FaTwitter title="Twitter" style={{ fontSize: '20px', color: '#fff' }} data-aos="zoom-in" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
