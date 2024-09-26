@@ -16,6 +16,31 @@ const Contact = () => (
         </div>
       </div>
     </div>
+
+    <div className="container mb-3">
+      <div className="row justify-content-center">
+        <div className="col-lg-8 col-sm-12">
+          <form id="contactForm">
+            <div className="mb-3">
+              <label htmlFor="nameInput" className="form-label">Name</label>
+              <input type="text" className="form-control" id="nameInput" name="name" />
+            </div>
+
+            <div className="mb-3">
+              <label htmlFor="emailInput" className="form-label">Email</label>
+              <input type="email" className="form-control" id="emailInput" name="email" />
+            </div>
+
+            <div className="mb-3">
+              <label htmlFor="messageInput" className="form-label">Message</label>
+              <textarea className="form-control" id="messageInput" name="message" rows="3" />
+            </div>
+
+            <button type="submit" className="btn btn-primary">Get in Touch</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 );
 
