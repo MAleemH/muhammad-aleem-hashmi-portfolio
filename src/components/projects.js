@@ -1,14 +1,17 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import {
   FaReact,
+  FaPhp,
+  FaBootstrap,
 } from 'react-icons/fa';
 import {
   SiRedux,
   SiRubyonrails,
+  SiMysql,
   SiPostgresql,
 } from 'react-icons/si';
 
-import logo from '../assets/images/projects/code.jpg';
+import code from '../assets/images/projects/code.jpg';
 
 const Projects = () => (
   <div className="main">
@@ -24,11 +27,12 @@ const Projects = () => (
     </div>
 
     <div className="container">
-      <div className="row">
+      <div className="row gap-5">
+        {/* Project 1 */}
         <div className="col-12 project-card">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <img src={logo} alt="Project-Img" className="w-100 h-100" />
+              <img src={code} alt="Project-Img" className="w-100 h-100" />
             </div>
 
             <div className="col-lg-6 col-md-6 col-sm-12 mt-lg-0 mt-md-0 mt-sm-3 d-flex flex-column gap-2">
@@ -55,6 +59,40 @@ const Projects = () => (
                 <span className="badge" style={{ backgroundColor: '#336791' }}>
                   <SiPostgresql className="me-1" />
                   PostgreSQL
+                </span>
+              </div>
+
+              <a href="/projects" className="project-view-btn align-self-start">View Details</a>
+            </div>
+          </div>
+        </div>
+        {/* Project 2 */}
+        <div className="col-12 project-card">
+          <div className="row">
+            <div className="col-lg-6 col-md-6 col-sm-12 order-lg-2 order-sm-1">
+              <img src={code} alt="Project-Img" className="w-100 h-100" />
+            </div>
+
+            <div className="col-lg-6 col-md-6 col-sm-12 order-lg-1 order-sm-2 mt-lg-0 mt-md-0 mt-sm-3 d-flex flex-column gap-2">
+              <h3>Online Babysitters</h3>
+
+              <p>
+                Users can view details of services, babysitters, and contact admin. There is
+                an admin panel to manage the whole website.
+              </p>
+
+              <div className="d-flex gap-1 mb-3">
+                <span className="badge" style={{ backgroundColor: '#7952b3' }}>
+                  <FaBootstrap className="me-1" />
+                  Bootstrap
+                </span>
+                <span className="badge" style={{ backgroundColor: '#4f5b93' }}>
+                  <FaPhp className="me-1" />
+                  PHP
+                </span>
+                <span className="badge" style={{ backgroundColor: '#00758f' }}>
+                  <SiMysql className="me-1" />
+                  MySQL
                 </span>
               </div>
 
