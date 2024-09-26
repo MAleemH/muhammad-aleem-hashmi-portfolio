@@ -55,10 +55,6 @@ body {
 
 /* about page */
 
-.skills-section {
-  margin: 2rem auto;
-}
-
 .skill-category {
   margin-bottom: 2rem;
 }
@@ -86,6 +82,28 @@ body {
   text-align: center;
   font-size: 14px;
   color: #333;
+}
+
+/* projects */
+
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.project-view-btn {
+  border: 1px solid #396df2;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #396df2;
+}
+
+.project-view-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: none;
 }
 
 /* footer */

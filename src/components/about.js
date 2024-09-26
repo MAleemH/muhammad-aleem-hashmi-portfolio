@@ -15,6 +15,7 @@ import {
   FaMicrosoft,
   FaGoogle,
   FaWordpress,
+  FaArrowRight,
 } from 'react-icons/fa';
 import {
   SiLaravel,
@@ -117,7 +118,7 @@ const About = () => (
       </div>
     </div>
 
-    <div className="container">
+    <div className="container mb-3">
       <div className="row">
         <div className="col-12">
           <h3>Who am I?</h3>
@@ -129,20 +130,121 @@ const About = () => (
             constantly learning new things and improving my skills.
           </p>
           <p>
-            I can help you build a product, feature or website. Look through some
-            of my work and experience! If you like what you see and have a
+            I can help you build a product, feature or website. Look through
+            some of my work and experience! If you like what you see and have a
             project you need coded, don&apos;t hesitate to contact me.
           </p>
         </div>
+      </div>
+    </div>
+
+    <div className="container mb-3">
+      <div className="row">
+        <div className="col-12">
+          <h3>Education</h3>
+        </div>
+      </div>
+
+      {/* education 1 */}
+      <div
+        className="row mb-5"
+        data-aos="zoom-in"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
+        <div className="col-lg-2 col-md-2 col-sm-12">
+          <p className="text-secondary">Nov 2022 – Jul 2023</p>
+        </div>
+        <div className="col-lg-10 col-md-10 col-sm-12">
+          <h5>Full Stack Web Development Program</h5>
+          <p>Microverse, Remote</p>
+
+          <div>
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Invested 1300+ hours mastering algorithms, data structures, and
+                full-stack development.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Developed projects using Ruby, Rails, JavaScript, React, and Redux
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Enhanced skills in remote pair programming using GitHub,
+                industry-standard git-flow, and daily standups to communicate
+                and collaborate with international remote developers.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* education 2 */}
+      <div
+        className="row mb-5"
+        data-aos="fade-right"
+        data-aos-duration="500"
+        data-aos-once="true"
+      >
+        <div className="col-lg-2 col-md-2 col-sm-12">
+          <p className="text-secondary">Oct 2017 – Apr 2022</p>
+        </div>
+        <div className="col-lg-10 col-md-10 col-sm-12">
+          <h5>BS Software Engineering</h5>
+          <p>Virtual University of Pakistan, Mirpur AJ&K</p>
+
+          <div>
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Completed various small projects as assignments with Java, C++,
+                JavaScript, XML, MySQL, HTML, and CSS.
+              </div>
+            </div>
+
+            <div className="d-flex gap-2">
+              <div>
+                <FaArrowRight />
+              </div>
+              <div>
+                Developed a comprehensive project using Laravel as part of the degree requirements.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="container mb-3">
+      <div className="row">
         <div className="col-12">
           <h3>My Skills</h3>
+
           <div className="skills-section">
             {skills.map((skillCategory) => (
               <div key={skillCategory.category} className="skill-category">
                 <h5>{skillCategory.category}</h5>
                 <div className="skills-grid">
                   {skillCategory.skills.map((skill) => (
-                    <div key={`${skillCategory.category}-${skill.name}`} className="skill-item">
+                    <div
+                      key={`${skillCategory.category}-${skill.name}`}
+                      className="skill-item"
+                    >
                       <span className="skill-icon">{skill.icon}</span>
                       <p className="skill-name">{skill.name}</p>
                     </div>
