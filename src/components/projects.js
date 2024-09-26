@@ -32,7 +32,7 @@ const Projects = () => (
     <div className="container">
       <div className="row gap-5">
         {/* Project 1 */}
-        <div className="col-12 project-card">
+        <div className="col-12 project-card" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
               <img src={code} alt="Project-Img" className="w-100 h-100" />
@@ -70,7 +70,7 @@ const Projects = () => (
           </div>
         </div>
         {/* Project 2 */}
-        <div className="col-12 project-card">
+        <div className="col-12 project-card" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 order-lg-2 order-sm-1">
               <img src={code} alt="Project-Img" className="w-100 h-100" />
@@ -104,7 +104,7 @@ const Projects = () => (
           </div>
         </div>
         {/* Project 3 */}
-        <div className="col-12 project-card">
+        <div className="col-12 project-card" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
               <img src={code} alt="Project-Img" className="w-100 h-100" />
