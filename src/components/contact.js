@@ -1,9 +1,17 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/label-has-associated-control */
+import { useRef } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('mwpegkvq');
+
+  const formRef = useRef(null);
+
+  // Reset form fields after successful submission
+  if (state.succeeded && formRef.current) {
+    formRef.current.reset();
+  }
 
   return (
     <div className="main">
@@ -26,7 +34,7 @@ const Contact = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-sm-12">
             {/* Contact Form */}
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} ref={formRef}>
               <div className="form-floating mb-3">
                 <input type="text" className="form-control" id="nameInput" name="name" placeholder="Muhammad Ali" />
                 <label htmlFor="nameInput">Name</label>
