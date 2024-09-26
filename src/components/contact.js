@@ -72,6 +72,19 @@ const Contact = () => {
               </div>
             </form>
 
+            {/* Success Message */}
+            {state.succeeded && (
+              <div className="mt-3 text-center text-success">
+                <p>Thanks for reaching me out! I will get back to you soon.</p>
+              </div>
+            )}
+
+            {/* Error Message */}
+            {state.errors && (
+              <div className="mt-3 text-center text-danger">
+                <p>There was an issue with your submission. Please try again.</p>
+              </div>
+            )}
           </div>
         </div>
       </div>
