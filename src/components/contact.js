@@ -1,13 +1,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm('mwpegkvq');
-  if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
-  }
 
   return (
     <div className="main">
@@ -29,6 +25,7 @@ const Contact = () => {
       <div className="container mb-3">
         <div className="row justify-content-center">
           <div className="col-lg-8 col-sm-12">
+            {/* Contact Form */}
             <form onSubmit={handleSubmit}>
               <div className="form-floating mb-3">
                 <input type="text" className="form-control" id="nameInput" name="name" placeholder="Muhammad Ali" />
@@ -61,9 +58,12 @@ const Contact = () => {
               </div>
 
               <div className="text-center">
-                <button type="submit" className="form-btn" disabled={state.submitting}>Get in Touch</button>
+                <button type="submit" className="form-btn" disabled={state.submitting}>
+                  {state.submitting ? 'Submitting...' : 'Get in Touch'}
+                </button>
               </div>
             </form>
+
           </div>
         </div>
       </div>
