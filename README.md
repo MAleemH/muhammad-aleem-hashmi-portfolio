@@ -77,7 +77,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://muhammad-aleem-hashmi-portfolio.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
